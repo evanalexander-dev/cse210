@@ -1,9 +1,9 @@
-using System;
+// I added a confirmation to the load goals option, so you don't accidentally overwrite your existing goals.
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop06 World!");
+        new GoalManager().Start();
     }
 }
